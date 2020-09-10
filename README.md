@@ -10,6 +10,8 @@ This is a simple Javascript app project that retreive data from a restaurant ser
 - wow.js
 - Javascript
 - AJAX ( fetch )
+
+## API used : ThemealDB API =>  https://www.themealdb.com/api.php
   
 ## Contact Me
   ## Email : achraffawzi224a@gmail.com
