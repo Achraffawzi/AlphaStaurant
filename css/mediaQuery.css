@@ -1,0 +1,11 @@
+/* Banner address collapse at 417 px */
+@media only screen and (max-width: 417px) {
+    .banner__address {
+        font-size: 16px;
+    }
+
+    /* removing the padding in the about section to have more space */
+    .about > .container {
+        width: ;
+    }
+}

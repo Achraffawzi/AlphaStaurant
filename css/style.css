@@ -1,0 +1,130 @@
+/* General Styling */
+:root {
+    --mainColor: #FF9068;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/* Custom Styling */
+/* Banner */
+.banner {
+    width: 100%;
+    height: 100vh;
+    padding: 35px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner__logo {
+    font-size: 19px;
+    letter-spacing: 5px;
+    font-family: 'Modern Antiqua', cursive;
+    text-transform: uppercase;
+    /* font-family: 'Playfair Display', serif; */
+    margin-bottom: 30vh;
+}
+
+.banner__logo > span {
+    color: var(--mainColor);
+}
+
+.banner__greeting {
+    flex: 1;
+    font-family: serif;
+}
+
+.banner__address {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.banner__slogan {
+    font-size: 6.625vw;
+    font-family: 'Modern Antiqua', cursive;
+    text-transform: uppercase;
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Playfair Display', serif; */
+}
+
+/* About */
+.about {
+    padding: 50px 0;
+    line-height: 1.8;
+}
+
+.about__info {
+    color: dimgray;
+}
+
+hr {
+    color: grey;
+    width: 76%;
+    margin: 1rem auto;
+}
+
+/* categories top (header) */
+.categories {
+    padding: 50px 0;
+    display: flex;
+}
+
+.categories__categorie {
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0 15px 15px 0;
+    border-radius: 10px;
+    border: 0.5px solid var(--mainColor);
+    cursor: pointer;
+    transition: background-color .2s ease-in;
+    color: var(--mainColor);
+}
+
+.categories__categorie:hover {
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+.categories__categorie.active {
+    background-color: var(--mainColor);
+    color: #fff;
+    border: none;
+}
+
+/* Categories Body */
+.categories__body {
+    padding: 50px 0;
+}
+
+.meal__image {
+    margin-bottom: 10px;
+}
+
+.meal__title {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
